@@ -5,6 +5,7 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;  */
+    color: #26877F;
     margin: 0;
     padding: 0;
 }
@@ -25,7 +26,7 @@ header, header + nav {
 }
 
 
-header > img {
+header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -116,9 +117,17 @@ footer {
 }
 
 footer div {
+    margin: 1% 2%;
     flex: 1;
+    align-self: center;
 }
 
 footer img {
-    margin: 10%;
+    max-width: 7%;
+}
+
+footer p {
+    font-size: 0.8rem;
+    text-align: right;
+    margin: 0;
 }
